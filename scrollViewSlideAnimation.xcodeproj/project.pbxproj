@@ -15,6 +15,9 @@
 		844BD3651FD910B700D6D93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD3641FD910B700D6D93B /* main.m */; };
 		844BD36F1FD910B800D6D93B /* scrollViewSlideAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD36E1FD910B800D6D93B /* scrollViewSlideAnimationTests.m */; };
 		844BD37A1FD910B800D6D93B /* scrollViewSlideAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD3791FD910B800D6D93B /* scrollViewSlideAnimationUITests.m */; };
+		844BD3891FD9256500D6D93B /* ScrollViewSliderAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD3881FD9256500D6D93B /* ScrollViewSliderAnimation.m */; };
+		844BD3901FD93CB600D6D93B /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD38B1FD93CB600D6D93B /* UIView+SDAutoLayout.m */; };
+		844BD3911FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 844BD38E1FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		844BD3751FD910B800D6D93B /* scrollViewSlideAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollViewSlideAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844BD3791FD910B800D6D93B /* scrollViewSlideAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollViewSlideAnimationUITests.m; sourceTree = "<group>"; };
 		844BD37B1FD910B800D6D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844BD3871FD9256500D6D93B /* ScrollViewSliderAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewSliderAnimation.h; sourceTree = "<group>"; };
+		844BD3881FD9256500D6D93B /* ScrollViewSliderAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSliderAnimation.m; sourceTree = "<group>"; };
+		844BD38B1FD93CB600D6D93B /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		844BD38C1FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		844BD38D1FD93CB600D6D93B /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		844BD38E1FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		844BD38F1FD93CB600D6D93B /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,13 @@
 		844BD3541FD910B700D6D93B /* scrollViewSlideAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				844BD38A1FD93CB600D6D93B /* SDAutoLayout */,
 				844BD3551FD910B700D6D93B /* AppDelegate.h */,
 				844BD3561FD910B700D6D93B /* AppDelegate.m */,
 				844BD3581FD910B700D6D93B /* ViewController.h */,
 				844BD3591FD910B700D6D93B /* ViewController.m */,
+				844BD3871FD9256500D6D93B /* ScrollViewSliderAnimation.h */,
+				844BD3881FD9256500D6D93B /* ScrollViewSliderAnimation.m */,
 				844BD35B1FD910B700D6D93B /* Main.storyboard */,
 				844BD35E1FD910B700D6D93B /* Assets.xcassets */,
 				844BD3601FD910B700D6D93B /* LaunchScreen.storyboard */,
@@ -130,6 +143,18 @@
 				844BD37B1FD910B800D6D93B /* Info.plist */,
 			);
 			path = scrollViewSlideAnimationUITests;
+			sourceTree = "<group>";
+		};
+		844BD38A1FD93CB600D6D93B /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				844BD38B1FD93CB600D6D93B /* UIView+SDAutoLayout.m */,
+				844BD38C1FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.h */,
+				844BD38D1FD93CB600D6D93B /* SDAutoLayout.h */,
+				844BD38E1FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.m */,
+				844BD38F1FD93CB600D6D93B /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +293,9 @@
 				844BD35A1FD910B700D6D93B /* ViewController.m in Sources */,
 				844BD3651FD910B700D6D93B /* main.m in Sources */,
 				844BD3571FD910B700D6D93B /* AppDelegate.m in Sources */,
+				844BD3891FD9256500D6D93B /* ScrollViewSliderAnimation.m in Sources */,
+				844BD3911FD93CB600D6D93B /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				844BD3901FD93CB600D6D93B /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,9 +459,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 872H6HXE58;
 				INFOPLIST_FILE = scrollViewSlideAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.xiangtai.WOW.scrollViewSlideAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = scrollViewSlideAnimation.c1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,9 +474,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 872H6HXE58;
 				INFOPLIST_FILE = scrollViewSlideAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.xiangtai.WOW.scrollViewSlideAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = scrollViewSlideAnimation.c1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
