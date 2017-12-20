@@ -3,4 +3,4 @@
 
 ![image](https://github.com/shaopenglei/scrollViewSlideAnimation/blob/master/animation.gif)
 这是我用demo自己写的效果
-![image](https://github.com/shaopenglei/scrollViewSlideAnimation/blob/master/animation例子.gif）
+![image](https://github.com/shaopenglei/scrollViewSlideAnimation/blob/master/animation2.gif）
