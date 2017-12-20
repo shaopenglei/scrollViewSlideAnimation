@@ -30,7 +30,7 @@
 @implementation ScrollViewSliderAnimation
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self=[super initWithFrame:frame]) {
-        self.SliderLabelWidth = 85;
+        self.SliderLabelWidth = 95;
         self.clipsToBounds = YES;
         [self BuildScrollView];
     }
